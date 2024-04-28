@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Fix Pagination",
+  "steps": [
+    {
+      "file": "app/Livewire/TodoList.php",
+      "description": "Reset the page (navigate to the 1st page) after a new record is created.",
+      "line": 38
+    }
+  ]
+}
