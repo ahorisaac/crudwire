@@ -1,0 +1,41 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Update Todo Functionality",
+  "steps": [
+    {
+      "file": "resources/views/livewire/includes/todo-card.blade.php",
+      "description": "Bind the edit function to the edit button.",
+      "line": 23
+    },
+    {
+      "file": "app/Livewire/TodoList.php",
+      "description": "Create the edit functionality. This function is invoked when the edit button is clicked.",
+      "line": 49
+    },
+    {
+      "file": "resources/views/livewire/includes/todo-card.blade.php",
+      "description": "After the edit functionality is invoked, an interface is displayed based on a conditional. An input is displayed with it value being the name of the current todo you are trying to edit. For the todos you are not trying to update just their names are displayed.",
+      "line": 12
+    },
+    {
+      "file": "resources/views/livewire/includes/todo-card.blade.php",
+      "description": "Two buttons are displayed for the current todo.",
+      "line": 46
+    },
+    {
+      "file": "app/Livewire/TodoList.php",
+      "description": "When this function is invoked, it closes the input interface and only displays the todo name.",
+      "line": 55
+    },
+    {
+      "file": "app/Livewire/TodoList.php",
+      "description": "This function updates the todo with the specified name and calls the cancel function to reset the variables.",
+      "line": 61
+    },
+    {
+      "file": "resources/views/livewire/includes/todo-card.blade.php",
+      "description": "Wrap the input and the error span element in a div to have a better layout.",
+      "line": 13
+    }
+  ]
+}
